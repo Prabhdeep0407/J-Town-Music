@@ -1,0 +1,74 @@
+
+.djaf {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.dja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dj {
+  display: flex;
+  justify-content: center;
+}
+
+.da {
+  display: flex;
+  align-items: center;
+}
+
+.dfta {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.d {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.hide {
+  display: none;
+
+}
+
+.show {
+  display: block;
+}
+
+.none {
+  display: none !important;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.ico {
+  color: white;
+  font-size: 25px;
+}
+
+.fab {
+  color: white;
+  font-size: 15px;
+}
+
+.blue {
+  color: rgb(56, 112, 217);
+}
+
+.blue:hover{
+  text-decoration: underline;
+}

@@ -1,0 +1,660 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Music&family=Poppins&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Lora&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+* a {
+    text-decoration: none;
+}
+
+.topArrow {
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.topArrow a i {
+    font-size: 20px;
+    font-weight: bold;
+    color: #7b7b7b;
+}
+
+.navbar-resp {
+    display: none;
+}
+
+.burger {
+    display: none;
+}
+
+.navbar {
+    height: 60px;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.nav {
+    width: 100%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.logo img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.navlist {
+    width: 70%;
+}
+
+.leftnav {
+    height: auto;
+}
+
+.leftnav li {
+    padding: 0 3vw;
+    list-style: none;
+    font-size: 14px;
+}
+
+.leftnav ul li .gold {
+    color: #ffb400;
+}
+
+.leftnav a {
+    color: #ebebeb;
+
+}
+
+.leftnav li a:hover {
+    transition: ease-in-out;
+    transition-duration: 0.20s;
+    color: #ffb400;
+}
+
+.right-nav {
+    width: 15%;
+}
+
+.right-nav i {
+    color: #ebebeb;
+    font-size: 13px;
+}
+
+.social_logo {
+    margin: 0 15px;
+}
+
+.right-nav a :hover {
+    transition: ease-in-out;
+    transition-duration: 0.20s;
+    color: #ffb400;
+}
+
+.seconcl {
+    height: 100%;
+  }
+
+.background {
+    background: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnmute {
+    position: fixed;
+    margin: 20px 0 0 20px;
+    border: none;
+    background: transparent;
+}
+
+.btnmute i {
+    color: #b6b6b6;
+    font-size: 25px;
+    display: block;
+    text-shadow: 2px 2px 5px #ffb400;
+}
+
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.jtm {
+    width: 100%;
+    font-weight: bold;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.jtm p {
+    font-size: 18px;
+    pointer-events: none;
+    padding-bottom: 10px;
+}
+
+.jtm h1{
+    font-size: 2em;
+}
+
+.djaf p{
+    text-shadow: 2px 2px 3px #ffb400;
+
+}
+
+.jtal {
+    padding: 0 0 70px 0;
+}
+
+.jtal div{
+    margin: 20px;
+    text-shadow: 4px 4px 4px #ffb400;
+}
+
+.listbtn {
+    padding: 10px;
+    cursor: pointer;
+    width: 100px;
+    color: #eaeaea;
+    background-color: #ffb400;
+    border: none;
+    border-radius: 4px;
+}
+
+.listbtn:hover {
+    transition: ease-in-out;
+    transition-duration: 0.20s;
+    background-color: #ffffff;
+    color: #ffb400;
+}
+
+.newrel {
+    background-color: #181818;
+    display: flex;
+    align-items: center;
+    height: auto;
+    font-family: 'Roboto'sans-serif;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.newreldivleft {
+    color: white;
+    width: 50%;
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.newreldivleft div {
+    margin: 20px 0;
+}
+
+.newrelease {
+    color: white;
+}
+
+.newrelease p {
+    font-size: 30px;
+    border-bottom: 1px solid #ffb400;
+}
+
+.lmtxt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.lmtxt p {
+    font-size: 36px;
+}
+
+.loybutton {
+    transition: all 0.30s ease;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    background-color: #ffb400;
+    border: none;
+}
+
+.loybutton:hover {
+    transition: all 0.30s ease;
+    background-color: #ffffff;
+    color: #ffb400;
+}
+
+.iframe {
+    display: flex;
+    align-items: center;
+}
+
+.iframevid iframe {
+    margin: 30px 15px;
+    border-radius: 20px;
+}
+
+.quotesec {
+    background-color: rgba(0, 0, 0, 0.7);
+    mix-blend-mode: darken;
+}
+
+.guri_sandhu:hover {
+    transition: all .2s ease;
+    max-width: 80%;
+}
+
+.quotetxt {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    padding: 100px 0px 100px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.quotetxt p {
+    padding: 10px 0;
+}
+
+.newrelright {
+    background-color: #181818;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: auto;
+    font-family: 'Roboto'sans-serif;
+    width: 100%;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+
+.newreldivright {
+    color: white;
+    width: 50%;
+    padding: 0 50px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.newreldivright div {
+    margin: 20px 0;
+}
+
+.newreleaseright {
+    color: white;
+}
+
+.newreleaseright p {
+    font-size: 30px;
+    border-bottom: 1px solid #ffb400;
+}
+
+.lmtxtright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.lmtxtright p {
+    font-size: 30px;
+}
+
+.getintouch {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.getincont{
+    padding: 30px 0;
+}
+
+.getintxt {
+    color: white;
+    font-family: 'Abril Fatface';
+    font-weight: bolder;
+}
+
+.getintxt p {
+    text-shadow: 2px 2px 3px black;
+    font-size: 20px;
+}
+
+.getlogo {
+    margin: 20px 0;
+}
+
+.getlogo i{
+    font-size: 20px;
+    color: #ffb400;
+}
+
+.getlogo a {
+    margin: 0 5px;
+    background-color: #181818;
+    padding: 4px;
+    height: 35px;
+    width: 35px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.20s ease;
+}
+
+
+.getlogo a:hover>.ico {
+    transition: all 0.25s ease;
+    color: #ffffff;
+    font-size: 17px;
+
+}
+
+.end {
+    background: rgba(0, 0, 0, 0.7);
+    background-blend-mode: darken;
+    color: white;
+    background-size: cover;
+    height: 30%;
+    font-family: 'Noto Music', sans-serif;
+}
+
+.endgroup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.endgroup a:hover{
+    text-decoration: underline;
+}
+
+.contacthead p, .quicklinkshead p, .juodiv p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.juo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    font-size: 18px;
+    padding: 30px 0 30px 20px;
+}
+
+.juodiv {
+    margin: 10px 0;
+}
+
+.juoul ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.juoul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: flex-start;
+}
+
+.juoul a {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: baseline;
+    color: white;
+}
+
+.juoul i {
+    color: white;
+    margin-right: 1px;
+    width: 0;
+    padding-right: 20px;
+    font-size: 15px;
+    display: block;
+}
+
+.quicklinks {
+    color: white;
+    font-size: 16px;
+    padding: 30px 0 30px 20px;
+}
+
+.quicklinks ul {
+    text-align: left;
+}
+
+.quicklinks li {
+    list-style-type: none;
+}
+
+.quicklinks li i {
+    width: 20px;
+    font-size: 8px;
+    line-height: 1em;
+}
+
+.quicklinks a {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.quicklinkshead {
+    margin: 10px 0;
+}
+
+.contactus {
+    color: white;
+    font-size: 18px;
+    padding: 30px 0 30px 20px;
+}
+
+.contacthead {
+    margin: 10px 0;
+}
+
+.details {
+    font-size: 16px;
+}
+
+.details a {
+    color: white;
+}
+
+.details div {
+    padding-bottom: 20px;
+}
+
+.copyright {
+    background-color: #181818;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.copyright a {
+    color: white;
+}
+
+.copyright a:hover{
+    color: #ffb400;
+}
+
+
+
+
+
+/*---------------------------------------------------------------------------*/
+
+
+.content_a img{
+    height: auto;
+    max-width: 80%;
+    border: 2px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.content_a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_a div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.content_c img{
+    height: auto;
+    max-width: 80%;
+    border: 2px solid #bfbfbf;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.content_c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_c div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+
+.gallerycont{
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallerycont div{
+    margin: 10px 0;
+}
+
+.gallery{
+    background: white;
+}
+
+
+
+
+
+
+
+.swipeleft{
+    position: absolute;
+    left: -100%;
+}
+
+.afford p{
+    font-size: 26px;
+}
+
+.logo h1{
+    font-family: 'Abril Fatface', cursive;
+    color: #ebebeb;
+    font-size: 40px;
+    transition: all ease-in-out 0.40s;
+}
+.logo h1:hover{
+    color: #ffb400;
+    transition: all ease-in-out 0.40s;
+}
+
+.bgz{
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.abj{
+    width: 100%;
+}
+
+.abj h1{
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+    font-size: 40px;
+    margin: 26px 0 0 130px;
+    border-bottom: 2px solid #ffb400;
+    width: 130px;
+}
+
+.lefttxt{
+    background-color: red;
+    width: 70%;
+}
+.rightimg{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 30%;
+}
+
+.rightimg h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 120px;
+    color: white;
+}
