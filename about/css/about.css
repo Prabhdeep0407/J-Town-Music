@@ -1,0 +1,170 @@
+.about {
+  height: 100%;
+  font-family: "Rubic", Sans-serif;
+}
+
+.abhead {
+  background: white;
+  display: flex;
+}
+
+.abhead div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 40px;
+}
+
+.abhead p {
+  text-align: left;
+}
+
+.abhead .smtxt {
+  font-size: 14px;
+  color: #e0b17e;
+}
+
+.abhead .lrtxt {
+  padding: 10px 0;
+  border-bottom: 2px solid #c9a951;
+  color: #000000;
+  font-family: "Rubic", Sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.aboutdiv {
+  background: #eaeaea;
+  background-blend-mode: lighten;
+  color: black;
+}
+
+.aboutcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: left;
+  margin: 0px 30px;
+  width: 60%;
+  height: 100%;
+}
+
+.para div {
+  padding: 10px 0;
+  width: 100%;
+}
+
+.ac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  height: auto;
+  max-width: 70%;
+  padding: 20px 0px;
+  border-radius: 50%;
+}
+
+.ourteam {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background: white;
+}
+
+.ourteam img {
+  height: 150px;
+  /* border-radius: 50%; */
+  transition: all 0.30s;
+}
+
+.ourteam img:hover {
+  transform: scale(1.1);
+}
+
+.ourteam i {
+  color: black;
+  margin: 0 8px;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head .txt {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Rubic', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.head .txt div {
+  height: 2px;
+  width: 20%;
+  background: #c9a951;
+  margin: 0 10px;
+}
+
+.ourteamcontent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.person {
+  padding: 30px;
+}
+
+.person .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.person .content .links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content * {
+  padding: 5px 0;
+}
+
+.content .name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gurisandhu {
+  border-radius: 20px;
+}
+
+.mammoth {
+  border-radius: 20px;
+}
